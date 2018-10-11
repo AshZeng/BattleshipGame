@@ -16,8 +16,6 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/BattleshipGame" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/BattleshipGame" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="samplePlayer">
