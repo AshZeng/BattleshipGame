@@ -9,28 +9,38 @@ import world.World;
  *
  * @author Youhan Xia, Jeffrey Chan
  */
-public class GreedyGuessPlayer  implements Player{
+public class GreedyGuessPlayer extends PlayerImp implements Player{
 
+    int index = -1;
     @Override
     public void initialisePlayer(World world) {
-        // To be implemented.
-    } // end of initialisePlayer()
+        super.initialisePlayer(world);
+
+} // end of initialisePlayer()
 
     @Override
     public Answer getAnswer(Guess guess) {
         // To be implemented.
-
+        return super.getAnswer(guess);
         // dummy return
-        return null;
     } // end of getAnswer()
 
 
     @Override
     public Guess makeGuess() {
         // To be implemented.
+        if(super.getAvailableGuess().isEmpty()){
+            return null;
+        }else{
+            //Hunting Mode
+            index += 1;
+            if(super.getAnswer(super.getAvailableGuess().get(index)))
+            return super.getAvailableGuess().remove(index);
 
+
+
+        }
         // dummy return
-        return null;
     } // end of makeGuess()
 
 
@@ -43,9 +53,8 @@ public class GreedyGuessPlayer  implements Player{
     @Override
     public boolean noRemainingShips() {
         // To be implemented.
-
+        return super.noRemainingShips();
         // dummy return
-        return true;
     } // end of noRemainingShips()
 
 } // end of class GreedyGuessPlayer

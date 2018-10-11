@@ -1,7 +1,11 @@
 package player;
 
-import java.util.Scanner;
+import java.util.*;
+
+import ship.Ship;
 import world.World;
+import world.World.Coordinate;
+import world.World.ShipLocation;
 
 /**
  * Random guess player (task A).
@@ -9,43 +13,37 @@ import world.World;
  *
  * @author Youhan Xia, Jeffrey Chan
  */
-public class RandomGuessPlayer implements Player{
+public class RandomGuessPlayer extends PlayerImp implements Player{
 
     @Override
     public void initialisePlayer(World world) {
-        // To be implemented.
-    } // end of initialisePlayer()
+        super.initialisePlayer(world);
+    }
 
     @Override
     public Answer getAnswer(Guess guess) {
-        // To be implemented.
+        return super.getAnswer(guess);
+    }
 
-        // dummy return
-        return null;
-    } // end of getAnswer()
-
+    @Override
+    public boolean noRemainingShips() {
+        return super.noRemainingShips();
+    }
 
     @Override
     public Guess makeGuess() {
         // To be implemented.
 
-        // dummy return
-        return null;
+        if(super.getAvailableGuess().isEmpty()) {
+            return null;
+        }else{
+            Random random = new Random();
+            int index = random.nextInt(super.getAvailableGuess().size()-1);
+            return super.getAvailableGuess().remove(index);
+        }
     } // end of makeGuess()
-
 
     @Override
     public void update(Guess guess, Answer answer) {
-        // To be implemented.
-    } // end of update()
-
-
-    @Override
-    public boolean noRemainingShips() {
-        // To be implemented.
-
-        // dummy return
-        return true;
-    } // end of noRemainingShips()
-
+    }
 } // end of class RandomGuessPlayer

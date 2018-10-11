@@ -10,7 +10,7 @@ import world.World;
  *
  * @author Youhan Xia, Jeffrey Chan
  */
-public interface Player {
+public interface  Player {
 
     /**
      * Initialise the player using the world object.
