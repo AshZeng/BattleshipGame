@@ -24,17 +24,17 @@ public class GreedyGuessPlayer implements Player{
 
     private List<WorldShip> ships;
 
-    private ArrayList<Guess> hitHistory;
-    private LinkedList<World.Coordinate> adj;
-
+    private TempWorld tempWorld;
     @Override
     public void initialisePlayer(World world) {
         // To be implemented.
         this.world = world;
+        this.tempWorld = new TempWorld(world.numRow,world.numColumn,true);
         this.numRow = world.numRow;
         this.numColumn = world.numColumn;
         this.board = new HashMap();
         this.ships = new ArrayList<>(NUM_OF_SHIPS);
+
         jumpGuesses = new LinkedList<>();
         this.enumerateGuesses(jumpGuesses);
 
@@ -107,21 +107,33 @@ public class GreedyGuessPlayer implements Player{
 
     @Override
     public Guess makeGuess() {
-        // To be implemented.
-        /*
-        if (super.getAvailableGuess().isEmpty()) {
-            return null;
-        } else {
-            //Hunting Mode
 
-            super.getAnswer(super.getAvailableGuess().get(index));
+        if ( tempWorld.possibleCoordinate.size() > 0 )
+        {
+            Guess g = new Guess();
+            World.Coordinate tempCoord = world.new Coordinate();
+            tempCoord = tempWorld.possibleCoordinate.remove(0);
 
-            return super.getAvailableGuess().remove(index);
+            g.row = tempCoord.row;
+            g.column = tempCoord.column;
 
-
-            // dummy return
+            /*
+             *  Check if this possible target is in the checkBoardGuesses list
+             *  This is to avoid duplicate guesses
+             */
+            Guess tempGuess = new Guess();
+            for ( int i = 0; i < jumpGuesses.size(); i++ )
+            {
+                tempGuess = jumpGuesses.get(i);
+                if ( ( tempGuess.row == g.row ) && ( tempGuess.column == g.column ) )
+                {
+                    jumpGuesses.remove(i);
+                    i = jumpGuesses.size();	// TO EXIT LOOP
+                }
+            }
+            return g;
         }
-        */// end of makeGuess()
+
         //Hunting Mode
         if(this.jumpGuesses.isEmpty()) {
             return null;
@@ -136,9 +148,10 @@ public class GreedyGuessPlayer implements Player{
     }
     @Override
     public void update (Guess guess, Answer answer){
-        if(answer.isHit){
-
-        }
+        if(answer.isHit)
+            tempWorld.updateCell (TempWorld.cellStatus.HIT, guess.row, guess.column );
+        else
+            tempWorld.updateCell ( TempWorld.cellStatus.MISS, guess.row, guess.column );
     } // end of update()
 
 
@@ -154,13 +167,5 @@ public class GreedyGuessPlayer implements Player{
         }
     }
 
-    private void setAdj(World.Coordinate coordinate){
-        World.Coordinate upCell = new World().new Coordinate();
-        World.Coordinate downCell = new World().new Coordinate();
-        World.Coordinate leftCell = new World().new Coordinate();
-        World.Coordinate rightCell;
-        upCell.row = coordinate.row;
 
-
-    }
 } // end of class GreedyGuessPlayer

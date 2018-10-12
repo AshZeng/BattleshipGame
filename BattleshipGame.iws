@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="633953a7-b49a-4290-9098-05353c0329d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/player/TempWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BattleshipGame.iws" beforeDir="false" afterPath="$PROJECT_DIR$/BattleshipGame.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/GreedyGuessPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/GreedyGuessPlayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/GreedyGuessPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/GreedyGuessPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/PlayerImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/PlayerImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/ProbabilisticGuessPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/ProbabilisticGuessPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/ProbabilisticGuessPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/ProbabilisticGuessPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/RandomGuessPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/RandomGuessPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/RandomGuessPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/RandomGuessPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/WorldShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/WorldShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/OppWorld$cellState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/OppWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/OppWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/WorldShip.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/WorldShip.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,18 +38,18 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="10" />
-          <entry key="java" value="31" />
+          <entry key="java" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5189" />
+          <entry key="JAVA" value="6501" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -67,7 +59,7 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5189" />
+          <entry key="java" value="6501" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
@@ -92,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/player/WorldShip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="34" column="58" lean-forward="true" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+            <state relative-caret-position="375">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#506#507#0" expanded="true" />
@@ -103,20 +95,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/player/RandomGuessPlayer$OwnShip.class">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/player/GreedyGuessPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="159" column="64" selection-start-line="159" selection-start-column="64" selection-end-line="159" selection-end-column="64" />
+            <state relative-caret-position="675">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2669#2670#0" expanded="true" />
                 <element signature="e#2712#2713#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/player/TempWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/player/ProbabilisticGuessPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="275">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -198,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/player/Answer.java" />
         <option value="$PROJECT_DIR$/src/player/RandomGuessPlayer.java" />
         <option value="$PROJECT_DIR$/src/player/WorldShip.java" />
+        <option value="$PROJECT_DIR$/src/player/TempWorld.java" />
         <option value="$PROJECT_DIR$/src/player/GreedyGuessPlayer.java" />
       </list>
     </option>
@@ -208,7 +208,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1918" />
@@ -239,6 +239,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="player" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BattleshipGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BattleshipGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ship" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -250,7 +256,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539325498755" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539334218969" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/samplePlayer.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -306,7 +312,7 @@
       <workItem from="1539231668908" duration="33000" />
       <workItem from="1539232093727" duration="116000" />
       <workItem from="1539233928033" duration="727000" />
-      <workItem from="1539315731791" duration="9734000" />
+      <workItem from="1539315731791" duration="16233000" />
     </task>
     <task id="LOCAL-00001" summary="New update">
       <created>1539231700344</created>
@@ -322,11 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539233948760</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New update">
+      <created>1539325512359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539325512359</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63036000" />
+    <option name="totallyTimeSpent" value="69535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -495,18 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/WorldShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" column="58" lean-forward="true" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/player/RandomGuessPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1575">
@@ -516,18 +517,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/player/ProbabilisticGuessPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="275">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/WorldShip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/player/GreedyGuessPlayer.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/TempWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/player/GreedyGuessPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="159" column="64" selection-start-line="159" selection-start-column="64" selection-end-line="159" selection-end-column="64" />
+        <state relative-caret-position="675">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2669#2670#0" expanded="true" />
