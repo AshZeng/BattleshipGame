@@ -1,25 +1,22 @@
 package player;
 
-import ship.*;
+
 import world.World;
 
 import java.util.ArrayList;
 
+/**
+ * This class to store the status of the cell and judge the cell hit or nor
+ * And to calculate the possible move
+ */
 public class TempWorld  {
     private World world;
     private boolean isPossible;
 
-
     public ArrayList<World.Coordinate> possibleCoordinate;
-    public ArrayList<WorldShip> ships;
-    public WorldShip airCar;
-    public WorldShip cruiser;
-    public WorldShip frigate;
-    public WorldShip patCra;
-    public WorldShip sub;
 
     public enum cellStatus{HIT,MISS,UNTEST,POSSIBLE};
-    public cellStatus[][] statuses = null;
+    public cellStatus[][] statuses;
     public int numRow;
     public int numColumn;
 
@@ -41,7 +38,7 @@ public class TempWorld  {
     public void updateCell(cellStatus cellStatus, int column, int row){
         statuses[row][column] = cellStatus;
         if((cellStatus == TempWorld.cellStatus.HIT)&&(this.isPossible)){
-            calculatePossibles(row, column );
+            calculatePossibles(row,column);
 
         }
     }
@@ -84,14 +81,7 @@ public class TempWorld  {
         // If the cell is already marked as hit or miss or possible, then it is ignored
     }
 
-    public void resetAllPossibleTargets(){
-        for (int j = numRow - 1; j >= 0; j--){
-            for (int i = 0; i < numColumn; i++){
-                if(statuses[j][i] == cellStatus.POSSIBLE)
-                    statuses[j][i] = cellStatus.UNTEST;
-            }
-        }
-    }
+
 
 
 
