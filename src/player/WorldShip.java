@@ -24,7 +24,7 @@ public class WorldShip{
         return ship;
     }
 
-    public void Hit(World.Coordinate wc) {
+    public void hit(World.Coordinate wc) {
         if(this.shipLocation.containsKey(wc)) {
             this.shipLocation.put(wc, Boolean.TRUE);
         }

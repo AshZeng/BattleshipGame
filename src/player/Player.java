@@ -1,6 +1,5 @@
 package player;
 
-import java.util.Scanner;
 import world.World;
 
 /**
@@ -24,7 +23,7 @@ public interface  Player {
      * Answer a guess from the opponent.
      *
      * @param guess from the opponent.
-     * 
+     *
      * @return Answer object holding the player's answer.
      */
     Answer getAnswer(Guess guess);
