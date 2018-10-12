@@ -4,13 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/player/RandomGuessPlayer.java" line="102" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="633953a7-b49a-4290-9098-05353c0329d3" name="Default Changelist" comment="New update">
+    <list default="true" id="633953a7-b49a-4290-9098-05353c0329d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/BattleshipGame.iws" beforeDir="false" afterPath="$PROJECT_DIR$/BattleshipGame.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/GreedyGuessPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/GreedyGuessPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/GreedyGuessPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/GreedyGuessPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/TempWorld$cellStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/TempWorld$cellStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/TempWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/TempWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/TempWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/TempWorld.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -209,7 +204,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1918" />
@@ -257,7 +252,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539344919617" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539344928074" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/samplePlayer.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -314,7 +309,7 @@
       <workItem from="1539232093727" duration="116000" />
       <workItem from="1539233928033" duration="727000" />
       <workItem from="1539315731791" duration="21424000" />
-      <workItem from="1539343388055" duration="1522000" />
+      <workItem from="1539343388055" duration="1531000" />
     </task>
     <task id="LOCAL-00001" summary="New update">
       <created>1539231700344</created>
@@ -344,11 +339,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539334380656</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New update">
+      <created>1539344926383</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539344926383</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76248000" />
+    <option name="totallyTimeSpent" value="76257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
